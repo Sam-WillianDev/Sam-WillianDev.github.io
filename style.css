@@ -1,17 +1,33 @@
-img {
-    display: none;
-}
 
-html, body, aside{
+html, body, main, section {
     height: 100%;
-
 }
 
 .aside-wrap {
+    top: 0px;
+    position: fixed;
     width: 240px;
-    background-image: linear-gradient(to bottom right, rgb(87, 74, 87), black);
+    background-image: linear-gradient(to bottom right, rgba(82, 34, 2, 0.888), rgba(145, 62, 8, 0.982));
+    height: 100%;
+    padding: 100px 20px;
+    display: block;
 
 }
+.aside-wrap .imagemPerfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+   
+ }
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
 .aside-wrap .menu-list{
     list-style: none;
 }
@@ -30,3 +46,4 @@ html, body, aside{
 .aside-wrap .menu-link:hover{
  border-bottom: 2px solid; 
 }
+
