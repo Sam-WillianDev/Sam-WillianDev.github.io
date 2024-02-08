@@ -3,11 +3,17 @@ html, body, main, section {
     height: 100%;
 }
 
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
 .aside-wrap {
     top: 0px;
     position: fixed;
     width: 240px;
-    background-image: linear-gradient(to bottom right, rgba(82, 34, 2, 0.888), rgba(145, 62, 8, 0.982));
+    background-image: linear-gradient(to bottom right, rgba(82, 34, 2, 0.986), rgb(186, 81, 11));
     height: 100%;
     padding: 100px 20px;
     display: block;
@@ -17,16 +23,14 @@ html, body, main, section {
     width: 250px;
     height: 250px;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .5);
     object-fit: cover;
    
  }
-
-
-*{
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: Ubuntu, sans-serif;
-}
+  img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
 
 .aside-wrap .menu-list{
     list-style: none;
