@@ -1,13 +1,17 @@
-
-html, body, main, section {
-    height: 100%;
-}
-
 *{
     margin: 0px;
     box-sizing: border-box;
     font-family: Ubuntu, sans-serif;
 }
+
+html, body, main, section {
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
 
 .aside-wrap {
     top: 0px;
@@ -19,6 +23,7 @@ html, body, main, section {
     display: block;
 
 }
+
 .aside-wrap .imagemPerfil {
     width: 250px;
     height: 250px;
@@ -27,16 +32,18 @@ html, body, main, section {
     object-fit: cover;
    
  }
-  img{
+
+img{
     overflow-clip-margin: content-box;
     overflow: clip;
-  }
+}
 
 .aside-wrap .menu-list{
-    list-style: none;
+    margin-top: 20px;
 }
 
 .aside-wrap .menu-item{
+    transition: all 1s;
     line-height: 3;
     
 }
@@ -48,6 +55,41 @@ html, body, main, section {
 }
 
 .aside-wrap .menu-link:hover{
- border-bottom: 2px solid; 
+ border-bottom: 2px solid #fff ; 
 }
 
+
+/* SECTION */
+
+section {
+    padding: 5% 0 0 350px;
+    margin-top: 10%;
+    max-width: 900px;
+
+}
+
+.section-title{
+    font-size: 56px;
+}
+
+
+.section-description{
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.section-cotent{
+    margin-top: 25px;
+}
+
+
+/* Home */
+#home .links{
+    margin-top: 20px;
+}
+
+#home .links li{
+    display: inline-block;
+
+}
