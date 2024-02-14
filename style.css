@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -91,6 +92,9 @@ section {
 
 
 /* Home */
+#home{
+    animation: fadeIn 2s ease forwards;
+}
 
 #home .section-title{
     font-weight: bold;
@@ -108,6 +112,10 @@ section {
     
 }
 
+#home .links li:hover{
+    background-color: #ff0000bf;
+}
+
 #home .links li{
     display: inline-block;
     background-color: #be1919;
@@ -119,3 +127,4 @@ section {
     padding: 10px;
     display: block;
 }
+
