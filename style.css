@@ -5,8 +5,17 @@
     font-family: Ubuntu, sans-serif;
 }
 
-html, body, main, section {
+html, body, aside, main, section {
     height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    margin-left: 100px;
+
 }
 
 ul{
