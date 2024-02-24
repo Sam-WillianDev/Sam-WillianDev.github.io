@@ -13,11 +13,6 @@ html{
     scroll-behavior: smooth;
 }
 
-section{
-    margin-left: 100px;
-
-}
-
 ul{
     list-style: none;
 }
@@ -74,14 +69,11 @@ img{
 }
 
 
-/* SECTION */
-
+/* SECTIONS  */
 section {
-    padding: 5% 0 0 350px;
-    margin-top: 10%;
+    padding: 12% 0 0 350px;
     max-width: 900px;
-    
-
+     
 }
 
 .section-title{
@@ -89,19 +81,13 @@ section {
 }
 
 
-.section-description{
-    margin: 10px 0;
-    font-size: 18px;
-    line-height: 1.3;
-    text-align: justify;
-}
 
 .section-cotent{
     margin-top: 25px;
 }
 
 
-/* Home */
+/* SECTION HOME */
 #home{
     animation: fadeIn 2s ease forwards;
 }
@@ -111,9 +97,17 @@ section {
     font-size: 56px;              
 }
 
+.section-description{
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
 #home .email-link{
     text-transform:uppercase ;
     color:#be1919;
+    text-decoration: none;
 }
 
 #home .links {
