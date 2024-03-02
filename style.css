@@ -13,15 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 
-ul{
-    list-style: none;
-}
-
 ul:not(.menu-list){
     padding: 0;
 }
 
-
+/*ASIDE-WRAP*/
 .aside-wrap {
     top: 0px;
     position: fixed;
@@ -49,7 +45,7 @@ img{
 
 .aside-wrap .menu-list{
     margin-top: 20px;
-    padding: 0;
+    list-style: none;
 }
 
 .aside-wrap .menu-item{
@@ -78,23 +74,7 @@ section {
 
 .section-title{
     font-size: 56px;
-}
-
-
-
-.section-cotent{
-    margin-top: 25px;
-}
-
-
-/* SECTION HOME */
-#home{
-    animation: fadeIn 2s ease forwards;
-}
-
-#home .section-title{
     font-weight: bold;
-    font-size: 56px;              
 }
 
 .section-description{
@@ -104,31 +84,39 @@ section {
     text-align: justify;
 }
 
-#home .email-link{
+.section-cotent{
+    margin-top: 25px;
+}
+
+.email-link{
     text-transform:uppercase ;
     color:#be1919;
     text-decoration: none;
 }
 
-#home .links {
-    margin-top: 20px;
-    
-    
+
+/* SECTION HOME */
+.social-links {
+    display: block;   
 }
 
-#home .links li:hover{
+.social-links li{
+    display: inline-block;
+    background-color: #be1919;
+    margin-right: 10px;
+}
+
+.social-links li a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#home .social-links li:hover{
     background-color: #ff0000bf;
 }
 
-#home .links li{
-    display: inline-block;
-    background-color: #be1919;
-
-}
-#home .links a{
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    display: block;
-}
 
