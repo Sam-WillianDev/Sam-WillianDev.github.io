@@ -102,7 +102,7 @@ section {
 
 .social-links li{
     display: inline-block;
-    background-color: #be1919;
+    background-color: #e81414;
     margin-right: 10px;
 }
 
@@ -112,7 +112,7 @@ section {
     font-weight: bold;
     color: #fff;
     padding: 10px;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 #home .social-links li:hover{
