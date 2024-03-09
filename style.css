@@ -5,6 +5,13 @@
     font-family: Ubuntu, sans-serif;
 }
 
+:root{
+    --primary: #C94666;
+    --secondary: #78293d;
+    --hover: #5E2130;
+    --dark: #17080C;
+}
+
 html, body, aside, main, section {
     height: 100%;
 }
@@ -22,11 +29,10 @@ ul:not(.menu-list){
     top: 0px;
     position: fixed;
     width: 240px;
-    background-image: linear-gradient(to bottom right, rgba(82, 34, 2, 0.986), rgb(186, 81, 11));
+    background-image: linear-gradient(to bottom right,var(--primary), rgb(0, 0, 0));
     height: 100%;
     padding: 100px 20px;
     display: block;
-
 }
 
 .aside-wrap .imagemPerfil {
@@ -102,7 +108,7 @@ section {
 
 .social-links li{
     display: inline-block;
-    background-color: #e81414;
+    background-color: var(--secondary);
     margin-right: 10px;
 }
 
