@@ -133,6 +133,30 @@ section {
     display: none;
 }
 
+/*SECTION SKILLS*/
+#skills .tools .tools-title{
+    font-size: 25px;
+}
+#skills .tools {
+    display: inline;
+    padding: 20px;
+
+}
+
+#skills .tools ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#skills .tools li{
+    
+    font-size: 50px;
+    color: var(--secondary);
+}
+
+/*Responsiveness*/
 @media (max-width: 600px) {
 
     section {
@@ -183,3 +207,4 @@ section {
     }
 
 }
+
