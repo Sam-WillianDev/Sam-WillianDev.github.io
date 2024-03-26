@@ -13,7 +13,6 @@
 
 html,
 body,
-aside,
 main,
 section {
     height: 100%;
@@ -175,6 +174,45 @@ section {
 #experience .company{
     color: var(--secondary);
 }
+
+
+/*SECTION PROJECTS*/
+#projects{
+    width: 100%;
+}
+#projects .projects-cards{
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+
+#projects .cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 1px #e2e2e2;
+  padding: 5px;
+  width: 400px;
+  gap: 5px;
+  border-radius: 2px;
+}
+
+#projects .cards img{
+    border: solid 1px #e2e2e2;
+}
+
+#projects img{
+    width: 100%;
+}
+
+#projects .cards:hover {
+    transform: scale(1.02);
+}
+
+#projects .cards {
+    transition: transform 0.3s;
+}
+
 
 
 
