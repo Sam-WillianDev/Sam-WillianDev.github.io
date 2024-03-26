@@ -156,6 +156,28 @@ section {
     color: var(--secondary);
 }
 
+/*SECTION EXPERIENCE*/
+
+#experience .section-cotent{
+ margin-top: 20px;
+ width: 600px;
+
+}
+#experience .experience-item:not(:first-of-type) {
+    margin-top: 25px;
+    display: block;
+}
+#experience .company h3{
+    font-size: 25px;
+
+}
+
+#experience .company{
+    color: var(--secondary);
+}
+
+
+
 /*Responsiveness*/
 @media (max-width: 600px) {
 
