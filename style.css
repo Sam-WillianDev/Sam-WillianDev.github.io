@@ -76,8 +76,8 @@ img {
 
 /* SECTIONS  */
 section {
-    padding: 12% 40px 0 350px;
-    max-width: 900px;
+    padding: 12% 40px 0px 350px;
+    max-width: 1200px;
 
 }
 
@@ -95,6 +95,7 @@ section {
 
 .section-cotent {
     margin-top: 25px;
+    width: 100%;
 }
 
 .email-link {
@@ -159,14 +160,17 @@ section {
 }
 
 /*SECTION EXPERIENCE*/
+#experience{
+   
+}
 
 #experience .section-cotent {
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
 #experience .experience-item:not(:first-of-type) {
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 
 }
@@ -224,6 +228,7 @@ section {
 
     section {
         padding: 12% 40px 0 40px;
+        margin-bottom: 50px;
     }
 
     .aside-wrap .imagemPerfil {
