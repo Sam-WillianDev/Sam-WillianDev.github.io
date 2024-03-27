@@ -37,7 +37,7 @@ ul:not(.menu-list) {
     display: block;
 }
 
-.aside-wrap .imagemPerfil {
+.aside-wrap .profile-image {
     width: 250px;
     height: 250px;
     border-radius: 10px;
@@ -76,38 +76,35 @@ img {
 
 /* SECTIONS  */
 section {
-    padding: 12% 40px 0px 350px;
-    max-width: 1200px;
-
-}
-
-.section-title {
+    padding: 5% 0 0 350px;
+    margin-top: 10%;
+    max-width: 900px;
+  }
+  
+  .section-title {
     font-size: 56px;
-    font-weight: bold;
-}
-
-.section-description {
+  }
+  
+  .section-description {
     margin: 10px 0;
     font-size: 18px;
     line-height: 1.3;
-    text-align: justify;
-}
-
-.section-cotent {
+  }
+  
+  .section-content {
     margin-top: 25px;
-    width: 100%;
 }
 
-.email-link {
-    text-transform: uppercase;
-    color: #be1919;
-    text-decoration: none;
-}
 
 
 /* SECTION HOME */
 .social-links {
     display: block;
+}
+.email-link {
+    text-transform: uppercase;
+    color: #be1919;
+    text-decoration: none;
 }
 
 .social-links li {
@@ -221,63 +218,6 @@ section {
 
 #projects .cards {
     transition: transform 0.3s;
-}
-
-/*Responsiveness*/
-@media (max-width: 600px) {
-
-    section {
-        padding: 12% 40px 0 40px;
-        margin-bottom: 50px;
-    }
-
-    .aside-wrap .imagemPerfil {
-        display: none;
-    }
-
-    .aside-wrap {
-        display: block;
-        width: 100%;
-        height: 250px;
-        padding: 0px;
-        margin-top: -280px;
-        transition: all 1s;
-    }
-
-    .aside-wrap .menu-list {
-        padding: 10px;
-    }
-
-    .aside-wrap .menu-item {
-        line-height: 2.5;
-    }
-
-    .menu-label {
-        padding: 10px;
-        border: 1px solid;
-        display: block;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 1;
-        font-size: 20px;
-        background-color: #fff;
-        margin: 5px;
-    }
-
-    #menu-check {
-        display: none;
-    }
-
-    #menu-check:checked+.aside-wrap {
-        margin: 0;
-
-    }
-
-    .experience-item {
-        padding: 30px;
-    }
-
 }
 
 /*Effects*/
